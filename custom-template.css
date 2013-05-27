@@ -1,0 +1,169 @@
+/* @group Basic Elements */
+	
+	body {
+		background-color: white;
+		font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+		font-size: 16px;
+		margin: 0;
+		padding: 0;	
+	}
+	
+	h1,h2,h3,h4,h5,h6 {
+		margin: 0;
+		padding: 0;
+	}
+	
+	h6 {
+		font-size: 1em;
+	}
+	
+	ul, li {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+/* @end */
+
+/* @group Layout */
+
+	/* Parent wrapper for the entire contact. */
+	
+	.contact-card { /* div */
+		
+	}
+	
+	/* The picture container (.contact-pic) and the wrapping div for the contact data both have the class name "box", you can use this to add visual separation between the profile picture and the rest of the contact information. */
+	
+	.box { /* div */
+		
+	}
+	
+	/* The ".column" class name is on wrapping elements around the different sections of contact information and can be used to style the information in a column-like layout if desired. */
+	
+	.column { /* div */
+
+	}
+
+/* @end */
+
+/* NOTE: Identity, Demographics and Social are all wrapped together in a single ".column" element */
+
+/* @group Identity */
+	
+	.identity { /* ul */
+		
+	}
+	
+	.identity-fullname { /* li */
+		
+	}
+	
+	.identity-title { /* li */
+		
+	}
+	
+	.identity-org { /* li */
+		
+	}
+
+/* @end */
+
+/* @group Demographics */  
+	
+	.demographics { /* ul */
+		
+	}
+	
+	.demographics-gender { /* li */
+		
+	}
+	
+	.demographics-age { /* li */
+		
+	}
+	
+	.demographics-location { /* li */
+		
+	}
+	
+/* @end */
+
+/* @group Social */
+
+	.social { /* ul */
+		
+	}
+	
+	.social-profile { /* li */
+		
+	}
+
+/* @end */
+
+/* @group Klout */
+	
+	/* NOTE: The Klout data is wrapped in ".column" element */
+	
+	.klout { /* div */
+		
+	}
+	
+	.klout-topic { /* ul */
+		
+	}
+	
+	.klout-topic .topic { /* li */
+		
+	}
+	
+	.klout-scores { /* ul */
+		
+	}
+	
+	.klout-scores .score { /* span that contains score value */
+		
+	}
+
+/* @end */
+
+/* @group Other Orgs */  
+	
+	/* NOTE: The Other Orgs data is wrapped in ".column" element */
+	
+	.other-orgs { /* div */
+		
+	}
+	
+	.other-orgs > h6 {
+		
+	}
+	
+	.other-orgs-list { /* ul */
+		
+	}
+	
+	.org { /* li */
+		
+	}
+	
+/* @end */
+
+/* @group Attribution Logo */  
+	
+	.provided-by { /* div */
+		
+	}
+	
+	.provided-by > h6 {
+		
+	}
+	
+	.provided-by > img { /* FullContact Logo */
+		
+	}
+	
+/* @end */
+
+
+
